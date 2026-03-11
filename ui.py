@@ -53,7 +53,7 @@ Answer:"""
     answer = response.choices[0].message.content
 
     # Show sources nicely!!
-    sources_text = "\n\n---\n🔍 **References from your papers:**\n" + "\n".join(sources)
+    sources_text = "\n\n---\n🔍 **References from PQC papers:**\n" + "\n".join(sources)
 
     return answer + sources_text
 
@@ -117,7 +117,7 @@ footer {display: none !important}
 with gr.Blocks(css=css, title="🌙 The PQC BoT") as demo:
     gr.HTML("""
         <div id='title'>🐱✨ PQC Bot ✨🐱</div>
-        <div id='subtitle'>🌙 Your Cat guide to Post-Quantum Cryptography 🌙</div>
+        <div id='subtitle'>🌙 The Cat guide to Post-Quantum Cryptography 🌙</div>
         <div style='text-align:center; font-size:2em;'>🌟 ⭐ 💫 ✨ 🌟 ⭐ 💫 ✨ 🌟</div>
     """)
 
