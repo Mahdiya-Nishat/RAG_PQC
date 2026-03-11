@@ -128,7 +128,7 @@ with gr.Blocks(css=css, title="🌙 The PQC BoT") as demo:
             avatar_images=("👤", "🐱"),
         ),
         textbox=gr.Textbox(
-            placeholder="🌙 Ask me anything about PQC...",
+            placeholder="🌙 Ask me PQC Queries ...",
             container=False,
         ),
         examples=[
