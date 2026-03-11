@@ -7,7 +7,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # Your token
-HF_TOKEN = os.environ.get("HF_TOKEN", "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")
+HF_TOKEN = os.environ.get("HF_TOKEN", "")
 # Load everything
 print("🌙 Initializing your PQC Tutor...")
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
