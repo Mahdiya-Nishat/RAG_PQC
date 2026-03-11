@@ -6,7 +6,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings import HuggingFaceEmbeddings
 
-HF_TOKEN = os.environ.get("HF_TOKEN", "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")
+HF_TOKEN = os.environ.get("HF_TOKEN", "")
 
 print("🌙 Initializing your PQC Tutor...")
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
